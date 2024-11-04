@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <script src="https://kit.fontawesome.com/39d0554298.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>Contuc tUs</title>
+</head>
+<body class="contactus">
+    <header class="header">
+        <a href="" class="logo"><img src="_images/Preview.png"></a>
+        <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="news.html">News</a>
+        </nav>
+        <div class="icons">
+        <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <div class="search-form">
+            <input type="text" name="search" id="search-box" placeholder="search here.."/>
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </div>
+        <div class="cart-iteam-container"></div>
+        <div class="cart-iteam"></div>
+        <span class="fas fa-times"></span>
+    </header>
+    
+</ul>
+</nav>
+</header>
+
+
+<h1>Contact Us</h1>
+
+<img src="_images/love pink.jpg" alt="Pink themed bakery design" width="350" height="300">
+
+<p>We love hearing from our customers and community members! Whether you have a question, want to place an order, or just want to say hello, there are several ways to get in touch with us. We’re here to help and look forward to connecting with you.</p>
+<h2>Our Location</h2>
+<p>Mutonda’s Bakery<br>
+686 Leadwood Street<br>  
+Fleurhof, Ext2 1709</p>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.1270057000147!2d27.904413410414286!3d-26.19254647698813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a08dd8625a67%3A0x297a114d10043801!2s686%20Leadwood%20St%2C%20Vogelstruisfontein%2C%20Randburg%2C%201709%2C%20South%20Africa!5e0!3m2!1sen!2sie!4v1724079507128!5m2!1sen!2sie" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<h2>Bakery Hours</h2>
+   <ul>
+       <li>Monday to Friday: 7:00 AM – 6:00 PM</li>
+       <li>Saturday: 8:00 AM – 4:00 PM</li>
+       <li>Sunday Closed</li>
+   </ul>\
+   
+   <h2>Social Media</h2>
+  
+   <ul>
+    <li><i class="fa-brands fa-instagram"></i> Instagram: @mutonda’sbakery</li>
+    <li><i class="fa-brands fa-facebook"></i> Facebook: Mutonda’s Bakery</li>
+    <li><i class="fa-brands fa-twitter"></i> Twitter: @mutondabakery</li>
+</ul>
+
+  <h2>Contact</h2>
+
+  <p>Phone:0646519105 </p>
+
+  <h2>Email</h2>
+
+  <p>Email: info@mutondabakery09@gmail.com</p>
+
+  <h1>Get in touch</h1>
+        <form id="contact-form" action="mailto:example@example.com" method="POST" enctype="text/plain">
+            <label for="name">Name <span class="required">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+            <label for="message">Message <span class="required">*</span></label>
+            <textarea id="message" name="message" placeholder="Your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+  
+  <P><a href="contactus.html">This is a link to the top.</a><br></P>
+
+
+  <footer class="footer1">
+    <p>&copy;2023 Mutonda’s Bakery. All rights reserved.</p>
+    <p id="date-stamp"></p>
+    
+    
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/39d0554298.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Menu</title>
+</head>
+<body class="menu">
+    <header class="header">
+        <a href="" class="logo"><img src="_images/Preview.png"></a>
+        <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="news.html">News</a>
+        </nav>
+        <div class="icons">
+        <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <div class="search-form">
+            <input type="text" name="search" id="search-box" placeholder="search here.."/>
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </div>
+        <div class="cart-iteam-container"></div>
+        <div class="cart-iteam"></div>
+        <span class="fas fa-times"></span>
+
+    </header>
+   
+</ul>
+</nav>
+</header>
+  
+<h1>Menu</h1>
+<div class="menu-item">
+    <img src="_images/StockCake-Colorful macaron display_1726809661.jpg" alt="StockCake-Colorful" width="200"length="200">
+    <p><b>Our seasonal Doughnuts, Cakes, Macaron and Cupcakes are made with fresh, organic ingredients that celebrate the flavors of the season.</b></p>
+  </div>
+<img src="_images/Pastel Colors Minimalist Bakery Menu.pdf.png" alt="a pastel Colors" width="500"length="500"/>
+
+<p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSef6MRW-9kVic859jCDLufHPGZYjuKkWwirO70gguH6Y9e15Q/viewform?embedded=true" width="450" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+
+
+<p><a href="menu.html">This is a link to the top.</a><br></p>
+
+<footer class="footer1">
+    <p>&copy;2023 Mutonda’s Bakery. All rights reserved.</p>
+    <p id="date-stamp"></p>
+    
+    
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
